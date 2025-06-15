@@ -1,0 +1,33 @@
+def show_welcome():
+    print("Welcome to LetsCode!, Let's learn Python together")
+
+show_welcome()
+
+
+
+
+def area(length, width):
+    results = length * width
+    print("The area of the rectangle is:", +results)
+
+area(10,5)
+
+
+
+# def area(length, width):
+#     results = length * width
+#     print(f"The area of the rectangle is:",results )
+
+
+# length = float(input("Enter the length of the rectangle: "))
+# width = float(input("Enter the width of the rectanglea: "))
+
+# area(length, width)
+
+
+
+def divide(a, b):
+    return a/b
+
+result = divide(1000, 50)
+print("The result is:", +result)
