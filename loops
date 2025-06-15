@@ -1,0 +1,10 @@
+for i in range(20):
+    print(i)
+
+
+
+
+count = 70
+while count < 200:
+    print(count)
+    count+=1
